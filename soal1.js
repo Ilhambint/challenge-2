@@ -61,6 +61,7 @@ function cekmail(){
 }
 
 /*Soal 4.*/
+
 function cekpw() {  
     var pw = document.getElementById("password").value;  
       
@@ -84,4 +85,8 @@ function cekpw() {
     }  
 
   }  
+
+/*Soal 5*/
+
+
 
