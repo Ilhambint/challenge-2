@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+    <div class="container-1">
+        <div class="row">
+            <div class="col">
+                <h1>Soal 1</h1>
+                
+                <p id="kata1">Aku membencimu karna kamu jahat</p>
+                <button type="button" onclick="changetext()">ganti</button>
+                <button type="button" onclick="back()">ganti</button>
+                
+
+                <br>
+
+                <p id="kata2">Gunung bromo tak akan mampu menggambarkan besarnya cintaku padamu</p>
+                <button type="button" onclick="changetext2()">ganti</button>
+                <button type="button" onclick="back2()">ganti</button>
+                <br>
+                <button type="button" onclick="changetext3()" style="margin-top: 2px;">ganti</button>
+                <button type="button" onclick="back3()" style="margin-top: 2px;">ganti</button>
+            </div>
+        </div>
+    </div>
+   
+ 
+    <!--soal 2-->
+
+    <div class="container2">
+        <div class="row">
+            <div class="col">
+                <h1>Soal 2</h1>
+
+                <p>Mencari Ganjil Genap</p>
+                <p id="hasilgg"></p>
+                <br>
+                <input type="number" id="inputan">
+                <button onclick="ganjilgenap()">Hasil</button>
+                
+            </div>
+        </div>
+    </div>
+
+    <!--soal  3-->
+        <div class="container-3">
+            <div>
+                <div>
+                    <h1>Soal 3</h1>
+                    <br>
+                    <form id="email" onsubmit="cekmail()">
+                        <input type="text" name="" id="inputemail">
+                        <span id="massage" style="color: red;"></span>
+                        <button type = "reset" value = "Reset" >Reset</button>  
+                    </form>
+                </div>
+            </div>
+        </div>
+
+     <!--soal  4-->
+ 
+  <div class="container-4">
+      <div>
+          <div>
+              <h1>Soal 4</h1>
+            <form onsubmit ="return cekpw()">  
+            <td> masukan Password </td>  
+            <input type = "password" id = "password" value = "">   
+            <span id = "Peringatan" style="color:red"> </span> <br><br> 
+            <input type = "submit" value = "Submit">  
+            <button type = "reset" value = "Reset" >Reset</button>  
+            </form> 
+          </div>
+      </div>
+  </div>
+             
+
+    <!--soal  4-->
+
+    
+    <script src="soal1.js"></script>
+</body>
+</html>
